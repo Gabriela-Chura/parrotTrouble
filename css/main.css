@@ -1,0 +1,41 @@
+/*-------------------->> HEADER <<--------------------*/
+
+header{
+    height: 250px;
+}
+
+.fondo{
+    background: url(../images/4.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 61%;
+    height: 1000px;
+    padding-left: 500px;
+}
+
+label {
+    color: sandybrown;
+}
+
+h1, h4, h3, p {
+    color: sandybrown;
+    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.laboratoria {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    background-color: rgba(216, 226, 226, 0.46);
+    border-radius: 10px;
+}
+
+.resultado {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
