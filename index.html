@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PARROTS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <div class="container-fluid fondo">
+      <div class="row">
+       <div class="col-md-3">
+           
+       </div>
+        
+        <div class="col-md-6">
+        <img src="images/logo.png" alt="" class="laboratoria">
+        <div class="form-group">
+        
+					<label for="dia">¿Qué hora es?</label>
+					<input type="text" id="hora">
+					
+				</div>
+        <div class="form-group">
+					<label for="loro">¿El loro está hablando?</label>
+					<select class="form-control" id="loro" style="width: 250px;">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+					</select>
+				</div>
+         
+          <button type="button" class="btn btn-warning" onclick="calcular()">Calcular</button>
+            <div class="form-group text-center">
+               <br>
+                <p>¿Tenemos problemas?</p>
+                <h2 id="salida" class="resultado">-</h2>
+                <div id="images">
+                
+            </div>
+            </div>
+            
+        </div>
+         <div class="col-md-3">
+           
+       </div>
+        </div>
+        
+    </div>
+</body>
+</html>
