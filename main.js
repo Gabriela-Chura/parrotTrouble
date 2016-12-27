@@ -3,6 +3,7 @@ function calcular() {
     var hora = document.getElementById("hora");
     var loro = document.getElementById("loro").value;
     var img = document.getElementById("images");
+    
     var varhora=hora.value;
     var varloro = false;
     var varsalida = document.getElementById("salida");
